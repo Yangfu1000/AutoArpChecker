@@ -10,7 +10,8 @@ Scan your network for unknown ip addresses
 Make an empty folder where you will store the program
 Download the files to the folder
 
-Add ip addresses that are allowed in the network with the format ###.###.###.### where the #'s are numbers through the whitelist file
+Add ip addresses that are allowed in the network in the whitelist file with the format ###.###.###.### where the #'s are numbers
+Put at least one space between ip addresses in the whitelist file
 Double click the file named AutoArpChecker to run it
 A command prompt will appear do not exit out of it unless you want to end the program
 The command prompt will show unknown ip addresses every 5 seconds
