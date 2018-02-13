@@ -17,7 +17,7 @@ The command prompt will show unknown ip addresses every 5 seconds
 
 Do not open the file named ignore
 Do not open the file named ipList
-The file named whitelist is where you type ip adresses allowed on the network
+The file named whitelist is where you type ip addresses allowed on the network
 The file named unknownList is a log of what unknown ip addresses have gone through the network
 
 To end the program exit out of the command prompt
