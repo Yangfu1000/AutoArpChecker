@@ -1,12 +1,14 @@
 # AutoArpChecker
+Code by Yangfu1000
 
+# Conditions Of Use Or "The Dont Be A Jerk" Clause
+This is an open source program any one can use and edit.
+If you do distribute or edit it give give credit to me.
 
 # Purpose
 Scan your network for unknown ip addresses
 
-
 # Directions
-
 Make an empty folder where you will store the program
 Download the files to the folder
 
@@ -23,7 +25,6 @@ Do not edit the file named ignore
 Do not edit the file named ipList
 The file named whitelist is where you type ip addresses allowed on the network
 The file named unknownList is a log of what unknown ip addresses have gone through the network
-
 
 Add ip addresses that are allowed in the network in the whitelist file with the format ###.###.###.### where the #'s are numbers
 Put at least one space between ip addresses in the whitelist file
