@@ -21,7 +21,7 @@ while True:
     print('\n')
     print('New Log Update')
 
-    ipsOnNetwork = subprocess.check_output('arp -a')
+    ipsOnNetwork = subprocess.check_output('arp -a',shell=True)
     stringNetworkIps = str(ipsOnNetwork)
     network = open('ipList.txt', 'w')
     network.write(stringNetworkIps)
